@@ -85,6 +85,25 @@ html{
       .card.card-sm{
         max-width: 800px;
         z-index: 1;
+        position:relative;
+        select.form-control{
+          height: 3.5rem;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          text-align: center;
+          // clear:both;
+          // font-family: initial;
+          font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+        }
+        select.form-control:focus{
+          box-shadow: none!important;
+          border-color:rgb(187, 195, 204)
+          // border-color:gray
+        }
+        input.form-control{
+          border-bottom-left-radius: 0;
+          border-top-left-radius: 0;
+        }
       }
       .intern{
         position: absolute;

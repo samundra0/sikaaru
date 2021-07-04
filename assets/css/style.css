@@ -74,6 +74,26 @@ html body {
 .main .banner .container .card.card-sm {
   max-width: 800px;
   z-index: 1;
+  position: relative;
+}
+
+.main .banner .container .card.card-sm select.form-control {
+  height: 3.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.main .banner .container .card.card-sm select.form-control:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: #bbc3cc;
+}
+
+.main .banner .container .card.card-sm input.form-control {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 
 .main .banner .container .intern {
