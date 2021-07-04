@@ -616,7 +616,118 @@ html{
     }
   }
 }
-
+.applicant-main{
+  .banner{
+    min-height: 5rem;
+    background: rgb(5,74,121);
+    background: linear-gradient(90deg, rgba(5,74,121,1) 0%, rgba(43,137,201,1) 35%, rgba(11,189,226,1) 100%);
+    .container{
+      padding:3rem 2rem;
+      
+      .card{
+        background-color: transparent;
+        box-shadow: none;
+        .card-body{
+          font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+          .logo{
+            .img-fluid{
+              max-width: 10rem;
+            }
+          }
+          .posting{
+            margin-left: 2rem;
+            h3{
+              color: map-get($map: $colors, $key: light);
+              margin-bottom:0;
+            }
+            p{
+              color: map-get($map: $colors, $key: light);
+              font-size: 0.95rem;
+              font-weight: 500;
+              letter-spacing: -1px;
+              word-spacing: 2px;
+            }
+          }
+  
+        }
+      }
+    }
+  }
+  .applicant-section{
+    padding: 3rem 0rem;
+    max-width: 90%;
+    margin:0 auto;
+    
+    .nav{
+      padding:0;
+      .nav-link{
+        font-size: 1.2rem;
+        padding:.5rem 2rem;
+      }
+      .nav-link.active{
+        background-color: map-get($map: $colors, $key: primary);
+        color: map-get($map: $colors, $key: light);
+      }
+    }
+    .tab-content{
+      .tab-pane{
+        .user-data{
+          display: block;
+          font-size: 1.1rem;
+        }
+        .user-data.name{
+          font-size: 1.4rem;
+          font-weight: 600;
+          margin-bottom: .5rem;
+        }
+        .right{
+          padding:1rem;
+          padding-left: 2rem;
+        }
+        padding:0 3rem;
+        .row{
+          margin-bottom:2rem;
+        }
+        .pref-list{
+          // margin-top:1rem;
+          .pref{
+            display: block;
+            font-size:1.2rem;
+          }
+        }
+        .skill-list{
+          .skill{
+            font-size:1.2rem;
+            margin-right:5px;
+            padding:.4rem 1rem;
+            background-color: transparentize(map-get($map: $colors, $key: primary),0.2);
+            color: white;
+            border-radius: 5px;
+          }
+        }
+        .profile-header,.preference-header,.skills-header{
+          font-size: 1.6rem;
+          font-weight: 500;
+          border-bottom:1px solid map-get($map: $colors, $key: primary);
+          padding:1rem;
+          padding-top:0;
+          .fa{
+            margin-right:2rem
+          }
+        }
+        .profile-container{
+         
+          padding:1rem;
+          img{
+            overflow: hidden;
+            border-radius: 50px;
+            max-width: 12rem;
+          }
+        }
+      }
+    }
+  }
+}
 .login-div{
   width:100%;
   margin:0 auto;
