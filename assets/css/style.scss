@@ -15,6 +15,9 @@ $colors:(
     }
 }
 
+*:focus {
+  outline: none!important;
+}
 html{
 
   body{
@@ -101,6 +104,9 @@ html{
     }
     .carousel-container{     
       margin-top:1em; 
+      h3{
+        color: darken(map-get($colors,primary),5%);
+      }
       ul.container {
         // width: 20em;
         padding: 0;
@@ -152,6 +158,9 @@ html{
       }
     }
     .topjobs-container{
+      h3{
+        color:darken(map-get($map: $colors, $key: primary),10%);
+      }
       & >.row{
         margin-left:0;
         margin-top:1em;
@@ -381,6 +390,213 @@ html{
     }
   }
 }
+.register-main{
+  .banner{
+    min-height: 5rem;
+    background: rgb(5,74,121);
+    background: linear-gradient(90deg, rgba(5,74,121,1) 0%, rgba(43,137,201,1) 35%, rgba(11,189,226,1) 100%);
+    .container{
+      padding:3rem 2rem;
+      
+      .card{
+        background-color: transparent;
+        box-shadow: none;
+        .card-body{
+          font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+          .logo{
+            .img-fluid{
+              max-width: 10rem;
+            }
+          }
+          .posting{
+            margin-left: 2rem;
+            h3{
+              color: map-get($map: $colors, $key: light);
+              margin-bottom:0;
+            }
+            p{
+              color: map-get($map: $colors, $key: light);
+              font-size: 0.95rem;
+              font-weight: 500;
+              letter-spacing: -1px;
+              word-spacing: 2px;
+            }
+          }
+  
+        }
+      }
+    }
+  }
+  .register-section{
+    padding: 2rem;
+    max-width: 700px;
+    margin:0 auto;
+    .input-group .form-control{
+      // outline: none !important;
+      outline-width: 0;
+      outline-color: gray;
+      min-height: 3rem;
+    }
+    .form-control:focus{
+      outline-width: 0;
+      outline-color: gray;
+      border-color: rgb(187, 195, 204)!important;
+      border-left: none!important;
+      // border-color:transparent!important;
+      box-shadow: 1px 1px 5px 2px map-get($map: $colors, $key: primary)!important;
+      padding-left: 1rem;
+    }
+    .btn{
+      // min-height: 3rem;
+      line-height: 2rem;
+    }
+  }
+  
+}
+.login-main{
+  .banner{
+    min-height: 5rem;
+    background: rgb(5,74,121);
+    background: linear-gradient(90deg, rgba(5,74,121,1) 0%, rgba(43,137,201,1) 35%, rgba(11,189,226,1) 100%);
+    .container{
+      padding:3rem 2rem;
+      
+      .card{
+        background-color: transparent;
+        box-shadow: none;
+        .card-body{
+          font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+          .logo{
+            .img-fluid{
+              max-width: 10rem;
+            }
+          }
+          .posting{
+            margin-left: 2rem;
+            h3{
+              color: map-get($map: $colors, $key: light);
+              margin-bottom:0;
+            }
+            p{
+              color: map-get($map: $colors, $key: light);
+              font-size: 0.95rem;
+              font-weight: 500;
+              letter-spacing: -1px;
+              word-spacing: 2px;
+            }
+          }
+  
+        }
+      }
+    }
+  }
+  .login-section{
+    padding: 2rem 4rem;
+    max-width: 600px;
+    margin:0 auto;
+    .form-control{
+      min-height: 3rem;
+
+    }
+    .btn{
+      // min-height: 3rem;
+      line-height: 2rem;
+    }
+  }
+}
+.apply-main{
+
+  .banner{
+    min-height: 5rem;
+    background: rgb(5,74,121);
+    background: linear-gradient(90deg, rgba(5,74,121,1) 0%, rgba(43,137,201,1) 35%, rgba(11,189,226,1) 100%);
+    .container{
+      padding:3rem 2rem;
+      
+      .card{
+        background-color: transparent;
+        box-shadow: none;
+        .card-body{
+          font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+          .logo{
+            .img-fluid{
+              max-width: 10rem;
+            }
+          }
+          .posting{
+            margin-left: 2rem;
+            h3{
+              color: map-get($map: $colors, $key: light);
+              margin-bottom:0;
+            }
+            p{
+              color: map-get($map: $colors, $key: light);
+              font-size: 0.95rem;
+              font-weight: 500;
+              letter-spacing: -1px;
+              word-spacing: 2px;
+            }
+          }
+  
+        }
+      }
+    }
+  }
+  .apply-section{
+    padding: 5rem 4rem 7rem;
+    max-width: 600px;
+    margin:0 auto;
+    .form-control{
+      min-height: 3rem;
+      border-color: rgb(187, 195, 204)!important;
+    }
+    .form-control:focus{
+      box-shadow: 0px 0px 0px 0px map-get($map: $colors, $key: primary)!important;
+
+    }
+    .btn{
+      // min-height: 3rem;
+      line-height: 2rem;
+    }
+    .select2-results{
+      font-size: 0.875rem;
+      .select2-results__options{
+        .select2-results__option{
+          font-size: 0.875rem;
+        }
+      }
+    }
+    .select2-container{
+      width:100%;
+      padding:0 !important;
+      height: auto;
+      border-color: rgb(187, 195, 204)!important;
+      .select2-search__field{
+        height:2rem
+      }
+      
+      
+    }
+    .select2-selection{
+      border-color: rgb(187, 195, 204)!important;
+      border-left: 0;
+      min-height: 3rem;
+      line-height: 2rem;
+      font-size: 0.875rem
+    }
+    .select2-selection:active,.select2-selection:focus{
+      border-color: rgb(187, 195, 204)!important;
+      border-left: 0;
+    }
+    .select2-selection__choice{
+      background-color: lighten(map-get($map: $colors, $key: primary),15%);
+      color: map-get($map: $colors, $key: light);
+      .select2-selection__choice__remove{
+        color: map-get($map: $colors, $key: light);
+      }
+    }
+  }
+}
 
 .login-div{
   width:100%;
@@ -488,7 +704,19 @@ input,button{
 }
 
 
-
+.btn-blue{
+  background-color: map-get($map: $colors, $key: primary);
+  color: map-get($map: $colors, $key: light);
+}
+.btn-blue:hover{
+  color: map-get($map: $colors, $key: light);
+}
+.text-blue{
+  color: map-get($map: $colors, $key: primary);
+}
+.text-blue:hover{
+  color: darken(map-get($map: $colors, $key: primary),10%);
+}
 //footer css
 
 

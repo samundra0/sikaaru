@@ -6,6 +6,10 @@
   color: black !important;
 }
 
+*:focus {
+  outline: none !important;
+}
+
 html body {
   font-size: 1.5rem;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
@@ -89,6 +93,10 @@ html body {
   margin-top: 1em;
 }
 
+.main .content.jobs .carousel-container h3 {
+  color: #277bb4;
+}
+
 .main .content.jobs .carousel-container ul.container {
   padding: 0;
   margin: 0 auto;
@@ -159,6 +167,10 @@ html body {
 
 .main .content.jobs .topjobs-container {
   margin-top: 1em;
+}
+
+.main .content.jobs .topjobs-container h3 {
+  color: #226c9f;
 }
 
 .main .content.jobs .topjobs-container > .row {
@@ -392,6 +404,233 @@ html body {
   font-size: 0.9rem;
 }
 
+.register-main .banner {
+  min-height: 5rem;
+  background: #054a79;
+  background: -webkit-gradient(linear, left top, right top, from(#054a79), color-stop(35%, #2b89c9), to(#0bbde2));
+  background: linear-gradient(90deg, #054a79 0%, #2b89c9 35%, #0bbde2 100%);
+}
+
+.register-main .banner .container {
+  padding: 3rem 2rem;
+}
+
+.register-main .banner .container .card {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.register-main .banner .container .card .card-body {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.register-main .banner .container .card .card-body .logo .img-fluid {
+  max-width: 10rem;
+}
+
+.register-main .banner .container .card .card-body .posting {
+  margin-left: 2rem;
+}
+
+.register-main .banner .container .card .card-body .posting h3 {
+  color: #F8F9FA;
+  margin-bottom: 0;
+}
+
+.register-main .banner .container .card .card-body .posting p {
+  color: #F8F9FA;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+}
+
+.register-main .register-section {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.register-main .register-section .input-group .form-control {
+  outline-width: 0;
+  outline-color: gray;
+  min-height: 3rem;
+}
+
+.register-main .register-section .form-control:focus {
+  outline-width: 0;
+  outline-color: gray;
+  border-color: #bbc3cc !important;
+  border-left: none !important;
+  -webkit-box-shadow: 1px 1px 5px 2px #2B89C9 !important;
+          box-shadow: 1px 1px 5px 2px #2B89C9 !important;
+  padding-left: 1rem;
+}
+
+.register-main .register-section .btn {
+  line-height: 2rem;
+}
+
+.login-main .banner {
+  min-height: 5rem;
+  background: #054a79;
+  background: -webkit-gradient(linear, left top, right top, from(#054a79), color-stop(35%, #2b89c9), to(#0bbde2));
+  background: linear-gradient(90deg, #054a79 0%, #2b89c9 35%, #0bbde2 100%);
+}
+
+.login-main .banner .container {
+  padding: 3rem 2rem;
+}
+
+.login-main .banner .container .card {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-main .banner .container .card .card-body {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.login-main .banner .container .card .card-body .logo .img-fluid {
+  max-width: 10rem;
+}
+
+.login-main .banner .container .card .card-body .posting {
+  margin-left: 2rem;
+}
+
+.login-main .banner .container .card .card-body .posting h3 {
+  color: #F8F9FA;
+  margin-bottom: 0;
+}
+
+.login-main .banner .container .card .card-body .posting p {
+  color: #F8F9FA;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+}
+
+.login-main .login-section {
+  padding: 2rem 4rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.login-main .login-section .form-control {
+  min-height: 3rem;
+}
+
+.login-main .login-section .btn {
+  line-height: 2rem;
+}
+
+.apply-main .banner {
+  min-height: 5rem;
+  background: #054a79;
+  background: -webkit-gradient(linear, left top, right top, from(#054a79), color-stop(35%, #2b89c9), to(#0bbde2));
+  background: linear-gradient(90deg, #054a79 0%, #2b89c9 35%, #0bbde2 100%);
+}
+
+.apply-main .banner .container {
+  padding: 3rem 2rem;
+}
+
+.apply-main .banner .container .card {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.apply-main .banner .container .card .card-body {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.apply-main .banner .container .card .card-body .logo .img-fluid {
+  max-width: 10rem;
+}
+
+.apply-main .banner .container .card .card-body .posting {
+  margin-left: 2rem;
+}
+
+.apply-main .banner .container .card .card-body .posting h3 {
+  color: #F8F9FA;
+  margin-bottom: 0;
+}
+
+.apply-main .banner .container .card .card-body .posting p {
+  color: #F8F9FA;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+}
+
+.apply-main .apply-section {
+  padding: 5rem 4rem 7rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.apply-main .apply-section .form-control {
+  min-height: 3rem;
+  border-color: #bbc3cc !important;
+}
+
+.apply-main .apply-section .form-control:focus {
+  -webkit-box-shadow: 0px 0px 0px 0px #2B89C9 !important;
+          box-shadow: 0px 0px 0px 0px #2B89C9 !important;
+}
+
+.apply-main .apply-section .btn {
+  line-height: 2rem;
+}
+
+.apply-main .apply-section .select2-results {
+  font-size: 0.875rem;
+}
+
+.apply-main .apply-section .select2-results .select2-results__options .select2-results__option {
+  font-size: 0.875rem;
+}
+
+.apply-main .apply-section .select2-container {
+  width: 100%;
+  padding: 0 !important;
+  height: auto;
+  border-color: #bbc3cc !important;
+}
+
+.apply-main .apply-section .select2-container .select2-search__field {
+  height: 2rem;
+}
+
+.apply-main .apply-section .select2-selection {
+  border-color: #bbc3cc !important;
+  border-left: 0;
+  min-height: 3rem;
+  line-height: 2rem;
+  font-size: 0.875rem;
+}
+
+.apply-main .apply-section .select2-selection:active, .apply-main .apply-section .select2-selection:focus {
+  border-color: #bbc3cc !important;
+  border-left: 0;
+}
+
+.apply-main .apply-section .select2-selection__choice {
+  background-color: #63acde;
+  color: #F8F9FA;
+}
+
+.apply-main .apply-section .select2-selection__choice .select2-selection__choice__remove {
+  color: #F8F9FA;
+}
+
 .login-div {
   width: 100%;
   margin: 0 auto;
@@ -495,6 +734,23 @@ html body {
 
 input, button {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.btn-blue {
+  background-color: #2B89C9;
+  color: #F8F9FA;
+}
+
+.btn-blue:hover {
+  color: #F8F9FA;
+}
+
+.text-blue {
+  color: #2B89C9;
+}
+
+.text-blue:hover {
+  color: #226c9f;
 }
 
 .footer-widget p {
