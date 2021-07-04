@@ -724,6 +724,62 @@ html{
             max-width: 12rem;
           }
         }
+        .select2{
+          width:auto!important;
+          min-width: 50%;
+          font-size: 1rem!important;
+          .select2-selection {
+            border-left: 0;
+            border-color:rgb(187, 195, 204)
+          }
+          .select2-search__field{
+            margin:0
+          }
+          .select2-results{
+            font-size: 0.875rem;
+            .select2-results__options{
+              .select2-results__option{
+                font-size: 0.875rem!important;
+              }
+            }
+          }
+          .select2-container{
+            width:100%;
+            padding:0 !important;
+            height: auto;
+            border-color: rgb(187, 195, 204)!important;
+            .select2-search__field{
+              height:2rem
+            }
+            
+            
+          }
+          .select2-selection{
+            border-color: rgb(187, 195, 204)!important;
+            border-left: 0;
+            // min-height: 3rem;
+            // line-height: 2rem;
+            font-size: 0.875rem
+          }
+          .select2-selection:active,.select2-selection:focus{
+            border-color: rgb(187, 195, 204)!important;
+            border-left: 0;
+          }
+          .select2-selection__choice{
+            background-color: transparentize(map-get($map: $colors, $key: primary),0.1);
+            
+            color: map-get($map: $colors, $key: light);
+            .select2-selection__choice__remove{
+              color: map-get($map: $colors, $key: light);
+            }
+          }
+        }
+        .custom-file-label{
+          margin:0
+        }
+        .form-control.upload{
+          max-width: 200px;
+        }
       }
     }
   }

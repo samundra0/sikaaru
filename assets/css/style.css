@@ -773,6 +773,68 @@ html body {
   max-width: 12rem;
 }
 
+.applicant-main .applicant-section .tab-content .tab-pane .select2 {
+  width: auto !important;
+  min-width: 50%;
+  font-size: 1rem !important;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection {
+  border-left: 0;
+  border-color: #bbc3cc;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-search__field {
+  margin: 0;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-results {
+  font-size: 0.875rem;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-results .select2-results__options .select2-results__option {
+  font-size: 0.875rem !important;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-container {
+  width: 100%;
+  padding: 0 !important;
+  height: auto;
+  border-color: #bbc3cc !important;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-container .select2-search__field {
+  height: 2rem;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection {
+  border-color: #bbc3cc !important;
+  border-left: 0;
+  font-size: 0.875rem;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:active, .applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:focus {
+  border-color: #bbc3cc !important;
+  border-left: 0;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice {
+  background-color: rgba(43, 137, 201, 0.9);
+  color: #F8F9FA;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice .select2-selection__choice__remove {
+  color: #F8F9FA;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .custom-file-label {
+  margin: 0;
+}
+
+.applicant-main .applicant-section .tab-content .tab-pane .form-control.upload {
+  max-width: 200px;
+}
+
 .login-div {
   width: 100%;
   margin: 0 auto;
