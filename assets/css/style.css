@@ -651,41 +651,41 @@ html body {
   color: #F8F9FA;
 }
 
-.applicant-main .banner {
+.applicant-main .banner, .employer-main .banner {
   min-height: 5rem;
   background: #054a79;
   background: -webkit-gradient(linear, left top, right top, from(#054a79), color-stop(35%, #2b89c9), to(#0bbde2));
   background: linear-gradient(90deg, #054a79 0%, #2b89c9 35%, #0bbde2 100%);
 }
 
-.applicant-main .banner .container {
+.applicant-main .banner .container, .employer-main .banner .container {
   padding: 3rem 2rem;
 }
 
-.applicant-main .banner .container .card {
+.applicant-main .banner .container .card, .employer-main .banner .container .card {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.applicant-main .banner .container .card .card-body {
+.applicant-main .banner .container .card .card-body, .employer-main .banner .container .card .card-body {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
 }
 
-.applicant-main .banner .container .card .card-body .logo .img-fluid {
+.applicant-main .banner .container .card .card-body .logo .img-fluid, .employer-main .banner .container .card .card-body .logo .img-fluid {
   max-width: 10rem;
 }
 
-.applicant-main .banner .container .card .card-body .posting {
+.applicant-main .banner .container .card .card-body .posting, .employer-main .banner .container .card .card-body .posting {
   margin-left: 2rem;
 }
 
-.applicant-main .banner .container .card .card-body .posting h3 {
+.applicant-main .banner .container .card .card-body .posting h3, .employer-main .banner .container .card .card-body .posting h3 {
   color: #F8F9FA;
   margin-bottom: 0;
 }
 
-.applicant-main .banner .container .card .card-body .posting p {
+.applicant-main .banner .container .card .card-body .posting p, .employer-main .banner .container .card .card-body .posting p {
   color: #F8F9FA;
   font-size: 0.95rem;
   font-weight: 500;
@@ -693,56 +693,56 @@ html body {
   word-spacing: 2px;
 }
 
-.applicant-main .applicant-section {
+.applicant-main .applicant-section, .applicant-main .employer-section, .employer-main .applicant-section, .employer-main .employer-section {
   padding: 3rem 0rem;
   max-width: 90%;
   margin: 0 auto;
 }
 
-.applicant-main .applicant-section .nav {
+.applicant-main .applicant-section .nav, .applicant-main .employer-section .nav, .employer-main .applicant-section .nav, .employer-main .employer-section .nav {
   padding: 0;
 }
 
-.applicant-main .applicant-section .nav .nav-link {
+.applicant-main .applicant-section .nav .nav-link, .applicant-main .employer-section .nav .nav-link, .employer-main .applicant-section .nav .nav-link, .employer-main .employer-section .nav .nav-link {
   font-size: 1.2rem;
   padding: .5rem 2rem;
 }
 
-.applicant-main .applicant-section .nav .nav-link.active {
+.applicant-main .applicant-section .nav .nav-link.active, .applicant-main .employer-section .nav .nav-link.active, .employer-main .applicant-section .nav .nav-link.active, .employer-main .employer-section .nav .nav-link.active {
   background-color: #2B89C9;
   color: #F8F9FA;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane {
+.applicant-main .applicant-section .tab-content .tab-pane, .applicant-main .employer-section .tab-content .tab-pane, .employer-main .applicant-section .tab-content .tab-pane, .employer-main .employer-section .tab-content .tab-pane {
   padding: 0 3rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .user-data {
+.applicant-main .applicant-section .tab-content .tab-pane .user-data, .applicant-main .employer-section .tab-content .tab-pane .user-data, .employer-main .applicant-section .tab-content .tab-pane .user-data, .employer-main .employer-section .tab-content .tab-pane .user-data {
   display: block;
   font-size: 1.1rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .user-data.name {
+.applicant-main .applicant-section .tab-content .tab-pane .user-data.name, .applicant-main .employer-section .tab-content .tab-pane .user-data.name, .employer-main .applicant-section .tab-content .tab-pane .user-data.name, .employer-main .employer-section .tab-content .tab-pane .user-data.name {
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: .5rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .right {
+.applicant-main .applicant-section .tab-content .tab-pane .right, .applicant-main .employer-section .tab-content .tab-pane .right, .employer-main .applicant-section .tab-content .tab-pane .right, .employer-main .employer-section .tab-content .tab-pane .right {
   padding: 1rem;
   padding-left: 2rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .row {
+.applicant-main .applicant-section .tab-content .tab-pane .row, .applicant-main .employer-section .tab-content .tab-pane .row, .employer-main .applicant-section .tab-content .tab-pane .row, .employer-main .employer-section .tab-content .tab-pane .row {
   margin-bottom: 2rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .pref-list .pref {
+.applicant-main .applicant-section .tab-content .tab-pane .pref-list .pref, .applicant-main .employer-section .tab-content .tab-pane .pref-list .pref, .employer-main .applicant-section .tab-content .tab-pane .pref-list .pref, .employer-main .employer-section .tab-content .tab-pane .pref-list .pref {
   display: block;
   font-size: 1.2rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .skill-list .skill {
+.applicant-main .applicant-section .tab-content .tab-pane .skill-list .skill, .applicant-main .employer-section .tab-content .tab-pane .skill-list .skill, .employer-main .applicant-section .tab-content .tab-pane .skill-list .skill, .employer-main .employer-section .tab-content .tab-pane .skill-list .skill {
   font-size: 1.2rem;
   margin-right: 5px;
   padding: .4rem 1rem;
@@ -751,7 +751,7 @@ html body {
   border-radius: 5px;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .profile-header, .applicant-main .applicant-section .tab-content .tab-pane .preference-header, .applicant-main .applicant-section .tab-content .tab-pane .skills-header {
+.applicant-main .applicant-section .tab-content .tab-pane .profile-header, .applicant-main .applicant-section .tab-content .tab-pane .preference-header, .applicant-main .applicant-section .tab-content .tab-pane .skills-header, .applicant-main .employer-section .tab-content .tab-pane .profile-header, .applicant-main .employer-section .tab-content .tab-pane .preference-header, .applicant-main .employer-section .tab-content .tab-pane .skills-header, .employer-main .applicant-section .tab-content .tab-pane .profile-header, .employer-main .applicant-section .tab-content .tab-pane .preference-header, .employer-main .applicant-section .tab-content .tab-pane .skills-header, .employer-main .employer-section .tab-content .tab-pane .profile-header, .employer-main .employer-section .tab-content .tab-pane .preference-header, .employer-main .employer-section .tab-content .tab-pane .skills-header {
   font-size: 1.6rem;
   font-weight: 500;
   border-bottom: 1px solid #2B89C9;
@@ -759,79 +759,79 @@ html body {
   padding-top: 0;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .profile-header .fa, .applicant-main .applicant-section .tab-content .tab-pane .preference-header .fa, .applicant-main .applicant-section .tab-content .tab-pane .skills-header .fa {
+.applicant-main .applicant-section .tab-content .tab-pane .profile-header .fa, .applicant-main .applicant-section .tab-content .tab-pane .preference-header .fa, .applicant-main .applicant-section .tab-content .tab-pane .skills-header .fa, .applicant-main .employer-section .tab-content .tab-pane .profile-header .fa, .applicant-main .employer-section .tab-content .tab-pane .preference-header .fa, .applicant-main .employer-section .tab-content .tab-pane .skills-header .fa, .employer-main .applicant-section .tab-content .tab-pane .profile-header .fa, .employer-main .applicant-section .tab-content .tab-pane .preference-header .fa, .employer-main .applicant-section .tab-content .tab-pane .skills-header .fa, .employer-main .employer-section .tab-content .tab-pane .profile-header .fa, .employer-main .employer-section .tab-content .tab-pane .preference-header .fa, .employer-main .employer-section .tab-content .tab-pane .skills-header .fa {
   margin-right: 2rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .profile-container {
+.applicant-main .applicant-section .tab-content .tab-pane .profile-container, .applicant-main .employer-section .tab-content .tab-pane .profile-container, .employer-main .applicant-section .tab-content .tab-pane .profile-container, .employer-main .employer-section .tab-content .tab-pane .profile-container {
   padding: 1rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .profile-container img {
+.applicant-main .applicant-section .tab-content .tab-pane .profile-container img, .applicant-main .employer-section .tab-content .tab-pane .profile-container img, .employer-main .applicant-section .tab-content .tab-pane .profile-container img, .employer-main .employer-section .tab-content .tab-pane .profile-container img {
   overflow: hidden;
   border-radius: 50px;
   max-width: 12rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 {
+.applicant-main .applicant-section .tab-content .tab-pane .select2, .applicant-main .employer-section .tab-content .tab-pane .select2, .employer-main .applicant-section .tab-content .tab-pane .select2, .employer-main .employer-section .tab-content .tab-pane .select2 {
   width: auto !important;
   min-width: 50%;
   font-size: 1rem !important;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-selection, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-selection, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-selection {
   border-left: 0;
   border-color: #bbc3cc;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-search__field {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-search__field, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-search__field, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-search__field, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-search__field {
   margin: 0;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-results {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-results, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-results, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-results, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-results {
   font-size: 0.875rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-results .select2-results__options .select2-results__option {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-results .select2-results__options .select2-results__option, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-results .select2-results__options .select2-results__option, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-results .select2-results__options .select2-results__option, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-results .select2-results__options .select2-results__option {
   font-size: 0.875rem !important;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-container {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-container, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-container, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-container, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-container {
   width: 100%;
   padding: 0 !important;
   height: auto;
   border-color: #bbc3cc !important;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-container .select2-search__field {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-container .select2-search__field, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-container .select2-search__field, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-container .select2-search__field, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-container .select2-search__field {
   height: 2rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-selection, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-selection, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-selection {
   border-color: #bbc3cc !important;
   border-left: 0;
   font-size: 0.875rem;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:active, .applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:focus {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:active, .applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:focus, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-selection:active, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-selection:focus, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:active, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-selection:focus, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-selection:active, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-selection:focus {
   border-color: #bbc3cc !important;
   border-left: 0;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-selection__choice, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-selection__choice {
   background-color: rgba(43, 137, 201, 0.9);
   color: #F8F9FA;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice .select2-selection__choice__remove {
+.applicant-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice .select2-selection__choice__remove, .applicant-main .employer-section .tab-content .tab-pane .select2 .select2-selection__choice .select2-selection__choice__remove, .employer-main .applicant-section .tab-content .tab-pane .select2 .select2-selection__choice .select2-selection__choice__remove, .employer-main .employer-section .tab-content .tab-pane .select2 .select2-selection__choice .select2-selection__choice__remove {
   color: #F8F9FA;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .custom-file-label {
+.applicant-main .applicant-section .tab-content .tab-pane .custom-file-label, .applicant-main .employer-section .tab-content .tab-pane .custom-file-label, .employer-main .applicant-section .tab-content .tab-pane .custom-file-label, .employer-main .employer-section .tab-content .tab-pane .custom-file-label {
   margin: 0;
 }
 
-.applicant-main .applicant-section .tab-content .tab-pane .form-control.upload {
+.applicant-main .applicant-section .tab-content .tab-pane .form-control.upload, .applicant-main .employer-section .tab-content .tab-pane .form-control.upload, .employer-main .applicant-section .tab-content .tab-pane .form-control.upload, .employer-main .employer-section .tab-content .tab-pane .form-control.upload {
   max-width: 200px;
 }
 
@@ -904,8 +904,14 @@ html body {
 .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
   border: none;
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: #bbc3cc !important;
 }
 
 .card-body {

@@ -616,7 +616,7 @@ html{
     }
   }
 }
-.applicant-main{
+.applicant-main,.employer-main{
   .banner{
     min-height: 5rem;
     background: rgb(5,74,121);
@@ -653,7 +653,7 @@ html{
       }
     }
   }
-  .applicant-section{
+  .applicant-section,.employer-section{
     padding: 3rem 0rem;
     max-width: 90%;
     margin:0 auto;
@@ -852,9 +852,13 @@ html{
 .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
 border: none;
 outline: none;
-box-shadow: none;
+box-shadow: none!important;
 }
 
+.form-control:focus{
+box-shadow: none!important;
+border-color:rgb(187, 195, 204)!important
+}
 .card-body {
   font-size: 0.9em;
 padding-bottom: 0.4em;
